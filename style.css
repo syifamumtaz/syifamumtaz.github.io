@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Questrial&display=swap');
+
+* {
+    font-family: 'Questrial', sans-serif;
+    font-size: 20px;
+}
+body {
+    background-color:#fffd8f;
+    background-image: ;
+    text-align: center;
+}
+.link {
+    background-color:  rgb(204, 218, 218); 
+}
+h1 {
+    font-family: 'Merienda', cursive;
+    text-align: center;
+    font-size: 70px;
+}
+.photo img {
+    width: 400px;
+    border: 7px solid white;
+    padding: 10px;
+}
+.photo-png img {
+    width: 200px;
+    padding: 5px;
+}
+.image-ship img{
+    width: 200px;
+    padding: 10px;
+}
+.navigation a {
+    color: teal;
+    padding: 50px;
+}
+.content {
+    font-size: 2cm;
+    text-align: center;
+}
+.list{
+    text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+}
+.color-bottom {
+    background-color:rgb(204, 218, 218);
+    height: 140px;
+}
+a{
+    text-decoration: none;
+}
