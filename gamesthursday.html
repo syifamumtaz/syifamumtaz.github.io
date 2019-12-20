@@ -1,0 +1,32 @@
+<!Doctype html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <script>
+
+            var ships = [0, 0, 0, 0, 0];
+
+            ships[2] = 1;
+
+            var fact = true;
+            var counter = 0;
+            while(fact){
+           
+
+                var user = prompt("Enter number between 1-4, to find the bomb. You only have 3 chances!");
+                counter++;
+                if(ships[user] == 1){
+                    console.log("you found the bomb! It took you "+ counter +" tries");
+                    fact = false;
+                }else{
+                    alert("Try again you almost there");
+                }
+
+            }
+           
+           
+        </script>
+    </body>
+</html>
